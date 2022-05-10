@@ -4,7 +4,11 @@ import {Heading} from '../../components/Heading';
 
 import {styles} from './styles';
 
-export function Home({navigation}: any) {
+interface HomeProps {
+  navigation: any;
+}
+
+export function Home({navigation}: HomeProps) {
   return (
     <View style={styles.container}>
       <Text>Home Screen</Text>

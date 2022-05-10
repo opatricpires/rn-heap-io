@@ -3,7 +3,13 @@ import {Text, TouchableOpacity, View} from 'react-native';
 
 import {styles} from './styles';
 
-export function Heading({navigation, route, buttonText}) {
+interface HeadingProps {
+  route: string;
+  buttonText: string;
+  navigation: any;
+}
+
+export function Heading({navigation, route, buttonText}: HeadingProps) {
   return (
     <View style={styles.container}>
       <TouchableOpacity

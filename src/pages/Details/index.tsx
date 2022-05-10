@@ -4,7 +4,11 @@ import {Heading} from '../../components/Heading';
 
 import {styles} from './styles';
 
-export function Details({navigation}: any) {
+interface DetailsProps {
+  navigation: any;
+}
+
+export function Details({navigation}: DetailsProps) {
   return (
     <View style={styles.container}>
       <Text>Details Screen</Text>
