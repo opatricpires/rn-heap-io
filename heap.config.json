@@ -4,10 +4,10 @@
   },
   "dev": {
     "heapAutoInit": true,
-    "heapAppId": "1937413891"
+    "heapAppId": ""
   },
   "prod": {
-    "heapAppId": "941934541",
+    "heapAppId": "",
     "heapAutoInit": true
   }
 }

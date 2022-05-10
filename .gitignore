@@ -62,4 +62,3 @@ buck-out/
 
 # Env
 .env
-heap.config.json
